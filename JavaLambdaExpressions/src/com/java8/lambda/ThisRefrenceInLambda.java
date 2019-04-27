@@ -16,6 +16,7 @@ public class ThisRefrenceInLambda {
 		});
 	}
 
+	
 	public static void main(String[] args) {
 		ThisRefrenceInLambda thisRef =  new ThisRefrenceInLambda();
 		thisRef.doProcess(10, i -> {
